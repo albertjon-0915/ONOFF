@@ -1,4 +1,4 @@
-# 🟢 ONOFF Library for Arduino / ESP32
+# ONOFF Library for Arduino / ESP32
 
 A lightweight, flexible helper class for controlling **relays**, **LEDs**, or any **digital on/off devices** with optional **active-low logic** and **debug serial logging**.
 
@@ -66,7 +66,7 @@ ONOFF relay(relayParams);
 Older AVR compilers only support C++11, which does not allow .pin = ... designated initializers.
 
 Instead, use manual assignment or positional initialization:
-#### 🟡 Option 1 – Manual assignment:
+#### Option 1 – Manual assignment:
 ```cpp
 Params_onoff relayParams;
 ONOFF relay;
@@ -82,7 +82,7 @@ void setup() {
 }
 ```
 
-#### 🟡 Option 2 – Positional initialization:
+#### Option 2 – Positional initialization:
 ```cpp
 Params_onoff relayParams = {2, false, false, true};
 ```
